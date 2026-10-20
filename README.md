@@ -111,11 +111,10 @@ All models were trained for a maximum of 20 epochs across 8 distinct setups.
 ## 📂 Repository Structure
 
 ```text
-├── notebooks/
-│   ├── alzheimer_with_data_transformation.ipynb     # Pipeline with Augmentation
-│   └── alzheimer_without_data_transformation.ipynb  # Pipeline with Original Images
-├── docs/
-│   └── Alzheimer_CNN_Scientific_Report.pdf          # Complete IEEE-style Report
+
+├── Alzheimer_Prediction_DataAug.ipynb    # Pipeline with Augmentation
+├── Alzheimer_Prediction_NODataAug.ipynb  # Pipeline with Original Images
+├──  Alzheimer_CNN_Scientific_Report.pdf  # Complete IEEE-style Report
 └──  README.md
 
 ```
