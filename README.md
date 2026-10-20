@@ -29,18 +29,10 @@ The experiments were conducted using the **Alzheimer MRI Preprocessed Dataset** 
 
 | Class | Sample Count | Description / Severity |
 | --- | --- | --- |
-| **Non Demented** | 3,200 | Healthy control group
-
- |
-| **Very Mild Demented** | 2,240 | Early-stage impairment
-
- |
-| **Mild Demented** | 896 | Noticeable cognitive decline
-
- |
-| **Moderate Demented** | 64 | Minority class (Severe impairment)
-
- |
+| **Non Demented** | 3,200 | Healthy control group |
+| **Very Mild Demented** | 2,240 | Early-stage impairment |
+| **Mild Demented** | 896 | Noticeable cognitive decline  |
+| **Moderate Demented** | 64 | Minority class (Severe impairment) |
 
 **Data Split:** 80% Training ($5{,}120$ images), 10% Validation ($640$ images), 10% Testing ($640$ images).
 
@@ -97,24 +89,10 @@ All models were trained for a maximum of 20 epochs across 8 distinct setups.
 
 | Subsampling Method | Regularization | With Data Transformation | Without Data Transformation |
 | --- | --- | --- | --- |
-| **Stride (2,2)** | **No Dropout** | **97.50%**<br> | 98.13%
-
- |
-| **Stride (2,2)** | **Dropout (0.5)** | 97.03%
-
- | **98.28%** ⭐
-
- |
-| **MaxPooling** | **No Dropout** | 96.09%
-
- | 96.25%
-
- |
-| **MaxPooling** | **Dropout (0.5)** | 96.56%
-
- | 95.63%
-
- |
+| **Stride (2,2)** | **No Dropout** | **97.50%**<br> | 98.13% |
+| **Stride (2,2)** | **Dropout (0.5)** | 97.03%| **98.28%** ⭐ |
+| **MaxPooling** | **No Dropout** | 96.09%| 96.25% |
+| **MaxPooling** | **Dropout (0.5)** | 96.56%| 95.63% |
 
 ### 2. Key Findings & Discussion
 
