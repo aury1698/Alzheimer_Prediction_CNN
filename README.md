@@ -153,6 +153,6 @@ pip install torch torchvision matplotlib seaborn scikit-learn pandas numpy
 ## Author
 
 * **Aurora Traversini** (Student ID: 361600)  
-  *B.S. in Computer and Robotics Engineering*  
+  *M.S. in Data Science and Data Engineering Robotics*  
   **Department of Engineering – University of Perugia (UniPG)**  
   Email: `aurora.traversini@studenti.unipg.it`
